@@ -8,6 +8,7 @@ public class Second {
 
     //int x = r.nextInt(10);
     boolean y = r.nextBoolean();
+    y = !y;
     System.out.println(y);
   }
 }
