@@ -8,6 +8,8 @@ public class Main {
           double z = Math.min(x,y);
           System.out.println(z);
 
+          int a = 1;
+
 
      }
 }
