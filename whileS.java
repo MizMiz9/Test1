@@ -1,16 +1,17 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class whileS {
   
   public static void main(String[] args) {
     
-    Scanner scanner = new Scanner(System.in);
-    String name = "";
-
-     do{
-      System.out.println("Enter your name: ");
-      name = scanner.nextLine();
-    }  while (name.isBlank());
-    System.out.println("Hello: "+name);
+   String name = "mark";
+   
+   //boolean result = name.equalsIgnoreCase("mark");
+   //int result = name.length();
+   //char result = name.charAt(2);
+   //int result = name.indexOf("a");
+   //boolean result = name.isEmpty();
+   String result = name.toUpperCase();
+   System.out.println(result);
   }
 }
