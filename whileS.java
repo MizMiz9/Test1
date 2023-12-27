@@ -11,7 +11,7 @@ public class whileS {
    //char result = name.charAt(2);
    //int result = name.indexOf("a");
    //boolean result = name.isEmpty();
-   String result = name.toUpperCase();
+   String result = name.toLowerCase();
    System.out.println(result);
   }
 }

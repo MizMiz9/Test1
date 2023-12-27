@@ -9,8 +9,8 @@ public class Main {
 
      int z = Math.min(x,y);
         System.out.println(z);
-     Random r = new Random();
-     int g = r.nextInt(15);
+     Random rand = new Random();
+     int g = rand.nextInt(15);
      System.out.println(g);
 
     }
