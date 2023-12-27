@@ -1,11 +1,8 @@
 public class test {
   public static void main(String[] args) {
-   sum();
+   testtw myDog = new testtw();
+   System.out.println(myDog.name +" is " +myDog.age+" years old");
   }
-  private static void sum(){
-    int x = 10;
-    int y = 25;
-    int z = x + y;
-    System.out.println(z);
-  }
+  
 }
+
